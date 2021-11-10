@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>vue hello</title>
+</head>
+<body>
+
+    <!-- sezione titolo 1 -->
+
+    <div id="title">
+
+        <h1 v-model="titleVue" :class="miaClasse">{{titleVue}}</h1>
+
+        <div class="container-image">
+
+            <img :src="image" alt="">
+
+        </div>
+
+        <button @click="changeColor">Cambia il colore del titolo in rosso, verde o blue</button>
+
+    </div>
+
+    <!-- sezione titolo generato dall'utente -->
+
+    <div id="yourTitle">
+
+        <h2 :class="yourClass">{{ownTitle}}</h2>
+
+        <input v-model="ownTitle" placeholder="Inserisci il tuo titolo">
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+
+    <script type="text/javascript" src="js/myscript.js"></script>
+    
+</body>
+</html>

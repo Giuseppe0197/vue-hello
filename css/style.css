@@ -1,0 +1,42 @@
+#title h1 {
+    font-size: 50px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
+}
+
+.green {
+    color: green;
+}
+
+.container-image {
+    margin-top: 30px;
+}
+
+.container-image img {
+    /* max-width: 100%; */
+    width: 500px;
+}
+
+button{
+    background-color: red;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+
+#yourTitle input {
+    font-size: 20px;
+    border-color: black;
+    padding: 10px 0;
+}
+
+#yourTitle h2 {
+    font-size: 40px;
+}
